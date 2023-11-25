@@ -4,8 +4,8 @@ function Estudiante(nombre,edad,curso){
     this.curso = curso;
 }
 Estudiante.prototype.agregarInfo = function(){
-    return `${this.nombre} ${this.edad} años ${this.curso}`;
-};
+    return `${this.nombre} , ${this.edad} años, ${this.curso}`;
+}
 function agregarEstudiante(){
     nombre = document.getElementById("nombre").value;
     edad = document.getElementById("edad").value;
